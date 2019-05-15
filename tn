@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# get the date
+date=$(date)
+
+# get the topic
+topic=$1
+
+filename=~/${topic}notes.txt
+
+read -p "your note please: " note
+
+echo "adding" $date: $note >> $filename
+echo Note  \'$note\' saved to $filename
