@@ -1,2 +1,2 @@
 # Notes-Taking-App
-To brush Linux shell scripting
+To brush up Linux shell scripting
